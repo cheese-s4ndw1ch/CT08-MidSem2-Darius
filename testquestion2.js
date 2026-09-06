@@ -18,6 +18,6 @@ function setup() {
 
 
 
-  ground = new Sprite(300, 350, 600, 100);
+  floor = new Sprite(1200, 390, 2400, 20);
 
 }
