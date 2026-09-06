@@ -13,6 +13,7 @@ function setup() {
   startCoordinates = [50, height - box.height / 2]; //array for start point. 
   box.x = startCoordinates[0];
   box.y = startCoordinates[1];
+  
 
 
 
@@ -21,6 +22,6 @@ function setup() {
   floor = new Sprite(1200, 390, 2400, 20);
   floor.collider = "static";
   floor.color = "green";
-  
+
 
 }
