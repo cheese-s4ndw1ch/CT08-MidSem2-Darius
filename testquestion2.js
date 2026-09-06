@@ -10,10 +10,8 @@ function setup() {
   box.bounciness = 0;
   box.collider = "dynamic";
   startCoordinates = [50, height - box.height / 2]; //array for start point. 
-
-    box.x = startCoordinates[0];
-
-    box.y = startCoordinates[1];
+  box.x = startCoordinates[0];
+box.y = startCoordinates[1];
 
 
 
