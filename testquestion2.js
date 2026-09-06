@@ -7,6 +7,14 @@ function setup() {
 
 
   box = new Sprite(30, 30, 30,30);
+   box.bounciness = 0;
+
+    box.collider = "none";
+
+
+
+
+
   ground = new Sprite(300, 350, 600, 100);
 
 }
