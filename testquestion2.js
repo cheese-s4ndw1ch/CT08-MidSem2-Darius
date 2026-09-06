@@ -8,8 +8,7 @@ function setup() {
 
   box = new Sprite(30, 30, 30,30);
   box.bounciness = 0;
-
-    box.collider = "dynamic";
+  box.collider = "dynamic";
 
 
 
