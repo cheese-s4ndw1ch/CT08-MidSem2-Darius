@@ -1,2 +1,2 @@
 let box;
-let grounnd;
+let ground;
