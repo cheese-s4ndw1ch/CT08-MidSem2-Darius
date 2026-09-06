@@ -10,6 +10,7 @@ function setup() {
   
   player = new Sprite(300, 100, 30, 30);
   player.color = 'blue';
+  player.collider = 'dynamic'
 
   
   floor = new Sprite(1200, 390, 2400, 20);
