@@ -11,7 +11,7 @@ function setup() {
   box.collider = "dynamic";
   startCoordinates = [50, height - box.height / 2]; //array for start point. 
   box.x = startCoordinates[0];
-box.y = startCoordinates[1];
+  box.y = startCoordinates[1];
 
 
 
