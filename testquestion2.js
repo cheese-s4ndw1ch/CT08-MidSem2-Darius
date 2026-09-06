@@ -7,7 +7,8 @@ function setup() {
 
 
   box = new Sprite(30, 30, 30,30);
-  box.bounciness = 0;
+  box.color = "blue";
+  box.bounciness = 2;
   box.collider = "dynamic";
   startCoordinates = [50, height - box.height / 2]; //array for start point. 
   box.x = startCoordinates[0];
