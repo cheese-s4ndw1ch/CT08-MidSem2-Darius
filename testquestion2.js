@@ -19,5 +19,6 @@ function setup() {
 
 
   floor = new Sprite(1200, 390, 2400, 20);
+    floor.collider = "static";
 
 }
